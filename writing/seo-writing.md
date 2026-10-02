@@ -11,7 +11,7 @@ Use only for SEO articles, organic-search pages, local SEO, and SERP-led content
 - Preserve uncertainty. State what was observed, what was inferred, what was unavailable, and what should be tested.
 - Prefer first-party documentation and direct business evidence over SEO folklore, tool scores, or anonymous claims.
 - Keep strategic and consequential decisions human-led. AI may gather, compare, classify, and draft, but it does not replace business judgment, compliance review, or customer context.
-- For Portugal, use European Portuguese and apply the Planeia insurance boundaries to insurance-related work.
+- For Portugal, use European Portuguese and apply the organization insurance boundaries to insurance-related work.
 - Identify the search intent before drafting and satisfy it early.
 - Lead with the useful answer, not keyword padding or a generic introduction.
 - Use headings that reflect reader questions, decision points, or logical subtopics.
