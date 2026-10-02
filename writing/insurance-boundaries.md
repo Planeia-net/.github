@@ -12,7 +12,7 @@ These requirements are mandatory for insurance-related content and override SEO,
 6. Never guarantee acceptance, coverage, claim payment, savings, premiums, eligibility, or policy outcomes.
 7. Do not omit a material limitation, exclusion, condition, or risk when omission would make the message misleading.
 8. Do not present a marketing page, article, chatbot response, email, or AI-generated summary as a substitute for mandatory contractual or pre-contractual documentation.
-9. Never invent Planeia's, an insurer's, or an intermediary's regulatory status, licence, registration, partnership, product, price, commercial relationship, capability, or authorization.
+9. Never invent a company's, insurer's, intermediary's, or repository brand's regulatory status, licence, registration, partnership, product, price, commercial relationship, capability, or authorization.
 10. Never invent citations or attribute a claim to a source that does not support it.
 11. For Portuguese legal or regulatory claims, use the source hierarchy in [source-policy.md](./source-policy.md).
 12. Distinguish legislation or binding regulation from regulatory guidance, recommendations, soft law, industry practice, and opinion.
