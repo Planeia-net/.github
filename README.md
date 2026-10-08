@@ -18,3 +18,15 @@ Project repositories should keep only brand-, product-, channel-, design-, and w
 For a new repository, copy the lightweight router from [templates/AGENTS.md](./templates/AGENTS.md). If GitHub Copilot repository instructions are used, also copy [templates/copilot-instructions.md](./templates/copilot-instructions.md) to `.github/copilot-instructions.md` in that repository.
 
 GitHub organization-level Copilot custom instructions are configured in the organization settings, not inherited automatically from this repository.
+
+## Shared Google Ads image skill
+
+[Google Ads images](./.agents/skills/google-ads-images/SKILL.md) activates for requests such as "create google ads images" and reads [google-ads-images](./google-ads-images) for current sizes. Edit that reference file to change dimensions; the skill does not duplicate them.
+
+The root agent router and bootstrap templates link to this skill. Existing repositories must load this router or add the same task-specific link to their instructions; updating templates does not update existing copies.
+
+For a shared ChatGPT project, add this rule to the project's instructions and ensure team members have connected GitHub access to this private repository:
+
+> When someone asks to create Google Ads images, read and follow https://github.com/Planeia-net/.github/blob/main/.agents/skills/google-ads-images/SKILL.md and fetch https://github.com/Planeia-net/.github/blob/main/google-ads-images for the current size instructions before generating.
+
+Saving a skill in GitHub does not install it in every ChatGPT conversation. Automatic use requires the host to load the skill or the project instructions above. No workspace-wide installation is implied by this repository change.
