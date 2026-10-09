@@ -23,7 +23,11 @@ GitHub organization-level Copilot custom instructions are configured in the orga
 
 [Google Ads images](./.agents/skills/google-ads-images/SKILL.md) activates for requests such as "create google ads images" and reads [google-ads-images](./google-ads-images) for current sizes. Edit that reference file to change dimensions; the skill does not duplicate them.
 
-The root agent router and bootstrap templates link to this skill. Existing repositories must load this router or add the same task-specific link to their instructions; updating templates does not update existing copies.
+## Shared image and video generation skill
+
+[Image and video generation](./.agents/skills/image-video-generation/SKILL.md) covers realistic avatars, reference-derived angles, relighting, and continuity-aware motion. The root agent router and bootstrap templates link to this skill; they load it only for relevant requests, and it does not force photorealism.
+
+The root agent router and bootstrap templates link to the Google Ads image skill. Existing repositories must load this router or add the same task-specific link to their instructions; updating templates does not update existing copies.
 
 For a shared ChatGPT project, add this rule to the project's instructions and ensure team members have connected GitHub access to this private repository:
 
