@@ -16,6 +16,8 @@ This file is the source of truth for recommended pixel dimensions, minimum dimen
 
 ## Apply to the request
 
+For photorealistic people or avatars, reference-derived angle variations, relighting, or continuity-aware motion in the brief, also follow the shared [image and video generation skill](https://github.com/Planeia-net/.github/blob/main/.agents/skills/image-video-generation/SKILL.md). It supplements this skill and does not replace its size and export requirements.
+
 1. Use the current conversation and applicable repository brand instructions for the brief. Ask only for missing information needed to produce the requested images, such as brand, product, language, message, or concept count. Do not infer Planeia versus Seguro de Portugal from this shared skill.
 2. Use the recommended dimensions in the canonical file for the requested formats. For a complete set without a narrower format request, include every format listed there. For a named campaign or placement with uncertain supported formats, clarify or verify the placement before promising upload compatibility; the shared file is a size reference, not a complete placement policy.
 3. If the user explicitly requests a different size, identify the departure from the reference and follow their instruction. Never describe an out-of-spec export as compliant with the reference.
