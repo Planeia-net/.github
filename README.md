@@ -29,6 +29,10 @@ GitHub organization-level Copilot custom instructions are configured in the orga
 
 The root agent router and bootstrap templates link to the Google Ads image skill. Existing repositories must load this router or add the same task-specific link to their instructions; updating templates does not update existing copies.
 
+For a shared ChatGPT project, also add this rule when the project handles visual-generation requests, and ensure team members have connected GitHub access to this private repository:
+
+> When someone asks to generate or edit images or videos involving realistic people or avatars, reference-derived camera angles, relighting, or continuity-aware motion, read and follow https://github.com/Planeia-net/.github/blob/main/.agents/skills/image-video-generation/SKILL.md. Load it only when relevant and preserve the requested visual medium and style.
+
 For a shared ChatGPT project, add this rule to the project's instructions and ensure team members have connected GitHub access to this private repository:
 
 > When someone asks to create Google Ads images, read and follow https://github.com/Planeia-net/.github/blob/main/.agents/skills/google-ads-images/SKILL.md and fetch https://github.com/Planeia-net/.github/blob/main/google-ads-images for the current size instructions before generating.
