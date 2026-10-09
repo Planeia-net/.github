@@ -7,6 +7,8 @@ description: Create or direct images and videos involving realistic people or av
 
 Use this guide when an image or video generation agent needs believable people, coherent shot variations, or deliberate lighting. Photographic realism is one possible creative direction, not a default for every brief. Follow the approved brief and reference material; do not promise that wording alone can guarantee realism, identity consistency, resolution, or artifact-free output.
 
+This skill provides creative direction and review criteria. It does not grant consent, authorize publication, add a tool, or expand a repository-specific agent's supported capabilities. Follow the selected agent's local production limits; for editing-only workflows, apply relevant direction to supplied assets without creating new people, scenes, or synthetic media.
+
 ## Principles for both image and video agents
 
 1. **Honor the intended style.** Establish whether the brief calls for photography, illustration, animation, stylized CGI, or another medium. Use photorealistic direction only when it fits.
