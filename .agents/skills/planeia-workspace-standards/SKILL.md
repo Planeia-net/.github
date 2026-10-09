@@ -48,6 +48,7 @@ Apply its evidence, consent, media-category and disclosure-placement decisions t
 - Real testimonials and case studies require genuine evidence. Generated characters and sample dashboards are not customer proof.
 - Use approved likeness/voice permissions for recreations. Disclosure does not cure a fabricated endorsement or unauthorized identity.
 - Use official logo assets and approved interfaces; identify illustrative data and provisional choices.
+- For image/video generation requests involving realistic people or avatars, reference-derived camera angles, relighting, or continuity-aware motion, read and follow https://github.com/Planeia-net/.github/blob/main/.agents/skills/image-video-generation/SKILL.md. Use only for relevant creative tasks and retain the applicable brand's visual identity and consent rules.
 - For Google Ads images, read https://github.com/Planeia-net/.github/blob/main/.agents/skills/google-ads-images/SKILL.md and the current size reference it specifies.
 
 ## Conversion and data
